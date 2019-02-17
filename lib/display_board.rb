@@ -1,11 +1,11 @@
  
 
- def display_board(position)
-  position = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  puts " #{position[0]} | #{position[1]} | #{position[2]}"
+ def display_board(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  puts " #{board[0]} | #{board[1]} | #{board[2]}"
   puts "-----------"
-  puts " #{position[3]} | #{position[4]} | #{position[5]}"
+  puts " #{board[3]} | #{board[4]} | #{board[5]}"
   puts "-----------"
-  puts " #{position[6]} | #{position[7]} | #{position[8]}"
+  puts " #{board[6]} | #{board[7]} | #{board[8]}"
 end
   
