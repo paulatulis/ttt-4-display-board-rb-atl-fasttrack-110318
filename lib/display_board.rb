@@ -1,6 +1,7 @@
- position = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+ 
 
  def display_board(position)
+  position = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts " #{position[0]} | #{position[1]} | #{position[2]}"
   puts "-----------"
   puts " #{position[3]} | #{position[4]} | #{position[5]}"
